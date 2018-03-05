@@ -8,7 +8,7 @@ textSelection.onTextSelected("text", console.log); // this will log the selectio
 
 ### Get the selected text and highlight it
 ```js
-let divName = "text;
+let divName = "text";
 let selectedText = textSelection.getWindowSelectedText(divName);
 let color = "yellow"; // any CSS color value
 textSelection.highlightText(selectedText, color, divName);
